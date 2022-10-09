@@ -58,7 +58,7 @@ brew install   freetype             \
                sdl2
 
 echo "Add cx-llvm & bison to PATH"
-export PATH= "$(brew --prefix cx-llvm)/bin":"$(brew --prefix bison)/bin":${PATH}
+export PATH="$(brew --prefix cx-llvm)/bin":"$(brew --prefix bison)/bin":${PATH}
 
 
 ############ Download and Prepare Source Code ##############
